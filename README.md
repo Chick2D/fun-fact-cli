@@ -1,15 +1,22 @@
 # fun-fact-cli
----
-Displays fun facts in your terminal, literally that's it
+Displays fun facts in your terminal. Also tastes great with `cowsay` and `lolcat`!
 
 # Installation
----
 1. Run
+
 ```bash
 git clone https://github.com/Chick2D/fun-fact-cli/
 chmod +x fun-fact-cli/funfacts.sh
 ```
-Run the shell script using `./funfacts.sh`, that's it
+[Optional]
+
+2. Run
+
+```bash
+cd fun-fact-cli
+mv funfacts.sh fun_fact.txt  ~/.
+```
+For it to be able to run when opening a terminal without changing directories.
 
 Support
 ---
